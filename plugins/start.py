@@ -46,15 +46,6 @@ async def start(client, message):
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
-        ],[
-        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/real_MoviesAdda6')
-        ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/LazyDeveloperr'),
-        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/LazyDeveloper')
         ]
         ])
     if START_PIC:
